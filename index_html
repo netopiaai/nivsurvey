@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Netopia AI Consumer Survey</title>
 
-  <link rel="icon" type="image/png" href="tally_icon.png">
+  <link rel="icon" type="image/png" href="tally_logo.png">
 
   <!-- Inter font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,7 +40,7 @@
           rgba(0, 113, 220, 0.68),
           rgba(31, 11, 122, 0.82)
         ),
-        url("banner.png");
+        url("header.png");
 
       background-size: cover;
       background-position: center;
@@ -196,7 +196,7 @@
   <main class="page-wrapper">
     
     <div class="logo-circle">
-      <img src="logo1.png" alt="Netopia AI logo">
+      <img src="icon.png" alt="Netopia AI logo">
     </div>
 
     <h1>Netopia AI Consumer Survey</h1>
@@ -214,11 +214,13 @@
       </p>
 
       <p>
-        In this survey, we will be asking you about your <strong>thoughts and
-        impressions about image advertisements</strong>, hoping to get a sense 
-        of how the ads perform to different kinds of people. Your responses will
-        be valuable to our research efforts in improving our capabilities and 
-        technology. We will also ask you some demographic questions about you.
+        In this survey, we will be asking you about your <b>preferences and
+        how you generally think and behave</b>, as well as your <b> thoughts
+        and impressions of image advertisements</b>.
+
+        Your responses will help us understand how different people
+        perceive and respond to advertising, and will be very valuable to our
+        efforts in improving our capabilities and technology. 
         All information that you will share will only be used:
       </p>
 
@@ -247,7 +249,7 @@
       </p>
       
       <p>
-        The survey should take approximately <strong>20 to 30 minutes</strong> to complete.
+        The survey should take approximately <strong>30 to 45 minutes</strong> to complete.
         There are no right or wrong answers, so feel free to answer as honestly as you can.
       </p>
 
@@ -279,7 +281,7 @@
     const startTime = new Date().toISOString();
 
     // Your Tally survey
-    const tallyURL = "https://tally.so/r/q48oOg";
+    const tallyURL = "https://tally.so/r/446y6A";
 
     // Send the start time to Tally
     const surveyURL =
